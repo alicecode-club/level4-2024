@@ -7,7 +7,7 @@ detected_objects = []
 model = MobileNetV2(weights = "imagenet")
 model.summary()
 
-img = Image.open("goldfish.jpg")
+img = Image.open("test_images/chain.jpg")
 
 resized_img = img.resize((224, 224))
 img_array = np.array(resized_img)
@@ -21,5 +21,5 @@ predictions = model.predict(input_data)
 decoded_predictions = decode_predictions(predictions, top=1)
 top_prediction = decoded_predictions[0][0][1]
 
-detected_objects.append(top_prediction.replace('_', ' ').capitalize())
+detected_objects.append(top_prediction.replace('_', ' ').title())
 print(detected_objects[0])
