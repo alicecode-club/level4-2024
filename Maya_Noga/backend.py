@@ -2,8 +2,7 @@ from keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decod
 from PIL import Image
 import numpy as np
 
-detected_objects = []
-duplicate = 0
+detected_objects = {"Chain":0}
 
 model = MobileNetV2(weights = "imagenet")
 model.summary()
@@ -21,9 +20,9 @@ predictions = model.predict(input_data)
 
 decoded_predictions = decode_predictions(predictions, top=1)
 top_prediction = decoded_predictions[0][0][1]
+top_prediction = top_prediction.replace('_', ' ').title()
 
-detected_objects.append(top_prediction.replace('_', ' ').title())
-print(detected_objects[0])
-
+detected_objects[top_prediction.replace('_', ' ').title()]=0
 if top_prediction in detected_objects:
-    duplicate += 1
+    updated = detected_objects[top_prediction] = detected_objects.get(top_prediction, 0) + 1
+print(detected_objects)
