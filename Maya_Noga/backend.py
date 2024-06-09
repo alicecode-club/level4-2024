@@ -3,6 +3,7 @@ from PIL import Image
 import numpy as np
 
 detected_objects = []
+duplicate = 0
 
 model = MobileNetV2(weights = "imagenet")
 model.summary()
@@ -23,3 +24,6 @@ top_prediction = decoded_predictions[0][0][1]
 
 detected_objects.append(top_prediction.replace('_', ' ').title())
 print(detected_objects[0])
+
+if top_prediction in detected_objects:
+    duplicate += 1
