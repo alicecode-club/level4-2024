@@ -15,5 +15,5 @@ input_data = preprocess_input(input_array)
 predictions = model.predict(input_data)
 predictions.shape
 
-for name, desc, score in decode_predictions(predictions, top=3)[0]:
-  print("- {} ({:.2f}%)".format(desc, 100 * score))
+for name, desc, score in decode_predictions(predictions, top=1)[0]:
+  print(f"{desc}")
