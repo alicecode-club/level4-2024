@@ -1,8 +1,12 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_from_directory
 import os
 
 
 app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def home():
+    return send_from_directory('static', 'index.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_picture():
@@ -15,11 +19,13 @@ def upload_picture():
     if file.filename == '':
         return 'No file selected', 400
     
+    if not os.path.exists('./static/images'):
+        os.makedirs('./static/images')
 
-    file.save('./static/' + file.filename)
+    file.save('./static/images/' + file.filename)
 
     results = do_stuff_with_picture(file.filename)
-    return render_template('picture.html', picture_path='./static/' + file.filename, information=results)
+    return render_template('picture.html', picture_path='./static/images/' + file.filename, information=results)
 
 
 #here you should do the picture processing

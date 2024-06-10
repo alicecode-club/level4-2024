@@ -1,0 +1,41 @@
+
+.title {
+    font-size: 350%;
+    margin-left: 20%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#breed{
+    font-size: 200%; 
+    margin-left: 40%;
+}
+
+#breed_ai{
+    font-size: 200%; 
+    margin-left: 1%;
+}
+
+#b {
+    font-size: 180%;
+    padding: 0.5%;
+    font-family: 'Heebo', sans-serif;
+    color:rgb(131, 96, 211);
+    background-color: white;
+    border-width: 5px;
+    border-color: rgb(131, 96, 211);
+    margin-left: 25%;
+ }
+ #b:hover {
+    font-size: 180%;
+    padding: 0.5%;
+    font-family: 'Heebo', sans-serif;
+    color:rgb(140, 186, 255);
+    background-color: white;
+    border-width: 5px;
+    border-color: rgb(140, 186, 255);
+ }
+
+
+ #a{
+    text-align: center;
+ }
