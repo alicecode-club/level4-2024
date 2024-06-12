@@ -1,12 +1,19 @@
 
-import { exec } from 'child_process';
+//import { exec } from 'child_process';
 
 document.getElementById('fileInput').addEventListener('change', function(event) {
     const file = event.target.files[0];
+
+    
     const validTypes = ['image/jpeg', 'image/jpg', 'image/png'];
     if (file && validTypes.includes(file.type)) {
         const reader = new FileReader();
         reader.onload = function(e) {
+            console.log(e.target.result);
+            const arrayBuffer = e.target.result;
+            const byteArray = new Uint8Array(arrayBuffer);
+            console.log(byteArray);
+
             const preview = document.getElementById('preview');
             preview.innerHTML = `<img src="${e.target.result}" alt="Image Preview">`;
 
