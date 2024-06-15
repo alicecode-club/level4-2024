@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cute dogs</title>
-    <script src="dog.js"></script>
-    <link rel="stylesheet" href="dog.css">
+    <title>Cute Dogs</title>
+    <link rel="stylesheet" type="text/css" href="static/dog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Heebo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p class="title"> CUTE DOG PICTURES FOR FREE SO WHY NOT??</p>
-    <button id="b"> Dog Breed </button>
-    <button id="b" onclick="random()"> New Dog </button>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept="image/*">
-        <br><br>
-        <input type="submit" value="Upload">
-    </form>
-    <br> <br>
-    <div id="a"> </div>
-    <div id="dogBreed">
-        <span class="title" id="breed"> Dog breed:</span>
-        <span class="title" id="breed_ai">Loading...</span>
+    <p class="title">CUTE DOG PICTURES FOR FREE SO WHY NOT??</p>
+    <div id="button_container">
+        <form action="/new_dog" method="post" class="form">
+            <button type="submit" id="b">New Dog</button>
+        </form>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="form">
+            <input type="file" name="file" accept="image/*">
+            <input type="submit" value="Upload" id="upload">
+        </form>
     </div>
-    <!--<img id="DoggyImg" onclick="CuteDogs()"> -->
+    <br><br>
+    <div id="a">
+        {%if dog_image%}
+            <img src="{{dog_image}}" alt="Random Dog Image" height="500">
+        {%endif%}
+    </div>
+    <div id="dogBreed">
+        <span class="title" id="breed">Dog breed:</span>
+        <span class="title" id="breed_ai">{%if breed%}{{breed}}{%else%}Loading...{%endif%}</span>
+    </div>
 </body>
 </html>
