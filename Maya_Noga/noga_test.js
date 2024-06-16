@@ -13,7 +13,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
             const arrayBuffer = e.target.result;
             const byteArray = new Uint8Array(arrayBuffer);
             console.log(byteArray);
-
+            runPython();
             const preview = document.getElementById('preview');
             preview.innerHTML = `<img src="${e.target.result}" alt="Image Preview">`;
 
@@ -27,7 +27,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
     } else {
         alert('Please upload a valid image file (JPEG, JPG, PNG).');
     }
-  //  runPython();
+    
 });
 
 
