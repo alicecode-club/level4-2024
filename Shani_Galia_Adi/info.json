@@ -1,0 +1,456 @@
+{
+    "Tench" : [
+        {"name" : "Tench"},
+        {"Binomial name" : "Tinca tinca"},
+        {"Lifespan" : "Up to 20 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Actinopterygii"},
+        {"Order" : "Cypriniformes"},
+        {"Suborder" : "Cyprinoidei"},
+        {"Family" : "Tincidae"},
+        {"Genus" : "Tinca"},
+        {"Species" : "T. tinca"}
+    ],
+
+    "Goldfish" : [
+        {"name" : "Goldfish"},
+        {"Binomial name" : "Carassius auratus"},
+        {"Lifespan" : "10 to 15 years, with some varieties living up to 30 years when provided with proper care"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Actinopterygii"},
+        {"Order" : "Cypriniformes"},
+        {"Family" : "Cyprinidae"},
+        {"Subfamily" : "Cyprininae"},
+        {"Genus" : "Carassius"},
+        {"Species" : "C. auratus"}
+    ],
+
+    "Great white shark" : [
+        {"name" : "Great white shark"},
+        {"Binomial name" : "Carcharodon carcharias"},
+        {"Lifespan" : "30 to over 70 years old"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Subdivision" : "Selachimorpha"},
+        {"Order" : "Lamniformes"},
+        {"Family" : "Lamnidae"},
+        {"Genus" : "Carcharodon"},
+        {"Species" : "C. carcharias"}
+    ],
+
+    "Tiger - shark" : [
+        {"name" : "Tiger shark"},
+        {"Binomial name" : "Galeocerdo cuvier"},
+        {"Lifespan" : "live 30+ years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Subdivision" : "Selachimorpha"},
+        {"Order" : "Carcharhiniformes"},
+        {"Family" : "Galeocerdonidae"},
+        {"Genus" : "Galeocerdo"},
+        {"Species" : "G. cuvier"}
+    ],
+
+    "Hammerhead - shark" : [
+        {"name" : "Hammerhead shark"},
+        {"Lifespan" : "20-30 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Subdivision" : "Selachimorpha"},
+        {"Order" : "Carcharhiniformes"},
+        {"Family" : "Sphyrnidae"}
+    ],
+
+    "Electric ray" : [
+        {"name" : "Electric ray"},
+        {"Binomial name" : "not update Galeocerdo cuvier"},
+        {"Lifespan" : "at least 16 years and possibly up to 24 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Superorder" : "Batoidea"},
+        {"Order" : "Torpediniformes"}
+    ],
+
+    "missing" : "crampfish",
+
+    "Numbfish" : [
+        {"name" : "Coffin ray"},
+        {"Another name" : "Australian numbfish"},
+        {"Binomial name" : "Hypnos monopterygius"},
+        {"Lifespan" : "between 16-24 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Superorder" : "Batoidea"},
+        {"Order" : "Torpediniformes"},
+        {"Family" : "Hypnidae"},
+        {"Genus" : "Hypnos"},
+        {"Species" : "H. monopterygius"}
+    ],
+
+    "Stingray" : [
+        {"name" : "Stingray"},
+        {"Binomial name" : "Myliobatoidei"},
+        {"Lifespan" : "between 15 to 25 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Superorder" : "Batoidea"},
+        {"Order" : "Myliobatiformes"}
+    ],
+
+    "Sea anemone" : [
+        {"name" : "Sea anemone"},
+        {"Lifespan" : "may live for decades"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Cnidaria"},
+        {"class" : "Hexacorallia"},
+        {"order" : "Actiniaria"}
+    ],
+
+    "Brain coral" : [
+        {"name" : "Brain coral"},
+        {"Lifespan" : "up to 900 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Cnidaria"},
+        {"class" : "Hexacorallia"},
+        {"order" : "Scleractinia"}
+    ],
+
+    "Sea slug" : [
+        {"name" : "Sea slug"},
+        {"Lifespan" : "One year"},
+        {"Domain" : "Eukarya"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Mollusca"},
+        {"class" : "Gastropoda"},
+        {"order" : "Nudibranchia"}
+    ],
+
+    "Nudibranchs" : [
+        {"name" : "Nudibranchs"},
+        {"Lifespan" : "some living less than a month, and others "},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Mollusca"},
+        {"class" : "Gastropoda"},
+        {"Subclass" : "Heterobranchia"},
+        {"Infraclass" : "Euthyneura"},
+        {"Subterclass" : "Ringipleura"},
+        {"Superorder" :	"Nudipleura"},
+        {"order" : "Nudibranchia"}
+    ],
+
+    "Chiton" : [
+        {"name" : "Chiton"},
+        {"Another name" : "Sea cradles"},
+        {"Another name" : "Coat-of-mail shells"},
+        {"Another name" : "Suck-rocks"},
+        {"Another name" : "Loricates"},
+        {"Another name" : "Polyplacophorans"},
+        {"Another name" : "Polyplacophores"},
+        {"Lifespan" : "20 years or more"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Mollusca"},
+        {"class" : "Polyplacophora"}
+    ],
+    
+    "Chambered nautilus" : [
+        {"name" : "Chambered nautilus"},
+        {"Binomial name" : "Nautilus pompilius"},
+        {"Another name" : "Pearly nautilus"},
+        {"Another name" : "Nautilus"},
+        {"Lifespan" : "15 to 20 years, or more"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Mollusca"},
+        {"Class" : "Cephalopoda"},
+        {"Subclass" : "Nautiloidea"},
+        {"Order" : "Nautilida"},
+        {"Family" : "Nautilidae"},
+        {"Genus" : "Nautilus"},
+        {"Species" : "N. pompilius"}
+    ],
+
+    "Dungeness crab" : [
+        {"name" : "Dungeness crab"},
+        {"Binomial name" : "Metacarcinus magister"},
+        {"Lifespan" : "between 8 and 13 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Brachyura"},
+        {"Family" : "Cancridae"},
+        {"Genus" : "Metacarcinus"},
+        {"Species" : "M. magister"}
+    ],
+
+    "Rock crab" : [
+        {"name" : "Rock crab"},
+        {"Binomial name" : "Cancer irroratus"},
+        {"Lifespan" : "5-7 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Brachyura"},
+        {"Family" : "Cancridae"},
+        {"Genus" : "Cancer"},
+        {"Species" : "C. irroratus"}
+    ],
+
+    "Fiddler crab" : [
+        {"name" : "Fiddler crab"},
+        {"Another name" : "Calling crab"},
+        {"Lifespan" : "up to 1.5 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Brachyura"},
+        {"Superfamily" : "Ocypodoidea"},
+        {"Family" : "Ocypodidae"}
+    ],
+
+    "King crab" : [
+        {"name" : "King crab"},
+        {"Lifespan" : "up to 20-30 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Anomura"},
+        {"Superfamily" : "Paguroidea"},
+        {"Family" : "Lithodidae"}
+    ],
+
+    "American lobster" : [
+        {"name" : "American lobster"},
+        {"Binomial name" : "Homarus americanus"},
+        {"Lifespan" : "100 years old"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Family" : "Nephropidae"},
+        {"Genus" : "Homarus"},
+        {"Species" : "H. americanus"}
+    ],
+
+    "Spiny lobster" : [
+        {"name" : "Spiny lobsters"},
+        {"Another name" : "langustas"},
+        {"Another name" : "langouste"},
+        {"Another name" : "rock lobsters"},
+        {"Lifespan" : "up to 30 to 50 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Achelata"},
+        {"Family" : "Palinuridae"}
+    ],
+
+    "Crayfish" : [
+        {"name" : "Crayfish"},
+        {"Lifespan" : "2 to 4 years, although some cave crayfish may live over 10 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Astacidea"}
+    ],
+
+    "Hermit crab" : [
+        {"name" : "Hermit crab"},
+        {"Lifespan" : "20-30 years if cared for properly"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Arthropoda"},
+        {"Class" : "Malacostraca"},
+        {"Order" : "Decapoda"},
+        {"Suborder" : "Pleocyemata"},
+        {"Infraorder" : "Anomura"},
+        {"Superfamily" : "Paguroidea"}
+    ],
+
+    "Gray whale" : [
+        {"name" : "Gray whale"},
+        {"Another name" : "Grey whale"},
+        {"Binomial name" : "Eschrichtius robustus"},
+        {"Lifespan" : "50-60 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Order" : "Artiodactyla"},
+        {"Infraorder" : "Cetacea"},
+        {"Family" : "Eschrichtiidae"},
+        {"Genus" : "Eschrichtius"},
+        {"Species" : "E. robustus"}
+    ],
+
+    "Devilfish" : [
+        {"name" : "Devil fish"},
+        {"Another name" : "Giant devil ray"},
+        {"Binomial name" : "Mobula mobular"},
+        {"Lifespan" : "20 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Chondrichthyes"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Superorder" : "Batoidea"},
+        {"Order" : "Myliobatiformes"},
+        {"Family" : "Mobulidae"},
+        {"Genus" : "Mobula"},
+        {"Species" : "M. mobular"}
+    ],
+
+    "Orca" : [
+        {"name" : "Orca"},
+        {"Another name" : "Killer whale"},
+        {"Binomial name" : "Orcinus orca"},
+        {"Lifespan" : "The average lifespan for male killer whales is about 30 years, but they can live up to at least 60 years. Females typically live about 50 years, but can live up to at least 90 years in the wild."},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Subclass" : "Elasmobranchii"},
+        {"Superorder" : "Batoidea"},
+        {"Order" : "Artiodactyla"},
+        {"Infraorder" : "Cetacea"},
+        {"Family" : "Delphinidae"},
+        {"Genus" : "Orcinus"},
+        {"Species" : "O. orca"}
+    ],
+
+    "Grampus" : [
+        {"name" : "Grampus"},
+        {"Another name" : "Risso's dolphin"},
+        {"Binomial name" : "Grampus griseus"},
+        {"Lifespan" : "at least 35 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Order" : "Artiodactyla"},
+        {"Infraorder" : "Cetacea"},
+        {"Family" : "Delphinidae"},
+        {"Genus" : "Grampus"},
+        {"Species" : "G. griseus"}
+    ],
+
+    "Sea wolf" : [
+        {"name" : "Sea wolf"},
+        {"Another name" : "Vancouver Island wolf"},
+        {"Another name" : "coastal wolf"},
+        {"Trinomial name" : "Canis lupus crassodon"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Order" : "Carnivora"},
+        {"Family" : "Canidae"},
+        {"Genus" : "Canis"},
+        {"Species" : "C. lupus"},
+        {"Subspecies" : "C. l. crassodon"}
+    ],
+
+    "Dugong" : [
+        {"name" : "Dugong"},
+        {"Binomial name" : "Dugong dugon"},
+        {"Lifespan" : "around 60-70 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Order" : "Sirenia"},
+        {"Family" : "Dugongidae"},
+        {"Subfamily" : "Dugonginae"},
+        {"Genus" : "Dugong"},
+        {"Species" : "D. dugon"}
+    ],
+
+    "Sea lion" : [
+        {"name" : "Sea lion"},
+        {"Lifespan" : "15 to 20 years in the wild and average 25 to 30 years in human care"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Chordata"},
+        {"Class" : "Mammalia"},
+        {"Order" : "Carnivora"},
+        {"Clade" : "Pinnipedia"},
+        {"Family" : "Otariidae"},
+        {"Subfamily" : "Otariinae"}
+    ],
+
+    "Starfish" : [
+        {"name" : "Starfish"},
+        {"Lifespan" : "up to 35 years in the wild"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Echinodermata"},
+        {"Subphylum" : "Asterozoa"},
+        {"Class" : "Asteroidea"}
+    ],
+
+    "Sea urchin" : [
+        {"name" : "Sea urchin"},
+        {"Another name" : "urchins"},
+        {"Lifespan" : "Southern California red sea urchins can live to be about 50 years old whereas those in British Columbia, Canada can reach more than 100 years."},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Echinodermata"},
+        {"Subphylum" : "Echinozoa"},
+        {"Class" : "Echinoidea"}
+    ],
+
+    "Sea cucumber" : [
+        {"name" : "Sea cucumber"},
+        {"Lifespan" : "5 to 10 years"},
+        {"Domain" : "Eukaryota"},
+        {"Kingdom" : "Animalia"},
+        {"Phylum" : "Echinodermata"},
+        {"Subphylum" : "Echinozoa"},
+        {"Class" : "Holothuroidea"}
+    ]
+}
