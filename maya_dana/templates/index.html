@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Dogs</title>
+    <link rel="stylesheet" type="text/css" href="static/dog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p class="title">CUTE DOG PICTURES FOR FREE SO WHY NOT??</p>
+    <div id="button_container">
+        <form action="/new_dog" method="post" class="form">
+            <button type="submit" id="b">New Dog</button>
+        </form>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="form">
+            <input type="file" name="file" accept="image/*">
+            <input type="submit" value="Upload" id="upload">
+        </form>
+    </div>
+    <br><br>
+    <div id="a">
+        {%if dog_image%}
+            <img src="{{dog_image}}" alt="Random Dog Image" height="500">
+        {%endif%}
+        {%if picture_path%}
+            <img src="{{picture_path}}" alt="Uploaded Image" height="500">
+        {%endif%}
+    </div>
+    <div id="dogBreed">
+        <span class="title" id="breed">Dog breed:</span>
+        <span class="title" id="breed_ai">{%if breed%}{{breed}}{%else%}Loading...{%endif%}</span>
+    </div>
+</body>
+</html>

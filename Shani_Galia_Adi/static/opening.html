@@ -12,6 +12,10 @@
        you have a picture of a sea creature that you don't recognize?<br>
        No problem! Enter the picture here and find out who is the sea creature you are looking for!
     </p>
-    <button>Click here to upload an image!</button>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <br><br>
+        <input type="submit" value="Upload">
+    </form>
 </body>
 </html>
