@@ -9,8 +9,7 @@ detected_objects = {}
 model = MobileNetV2(weights = "imagenet")
 
 def process_image(image):
-    model.summary()
-    img = Image.open('./static/images/'+image)
+    img = Image.open('./static/images/' + image)
 
     resized_img = img.resize((224, 224))
     img_array = np.array(resized_img)
@@ -28,7 +27,6 @@ def process_image(image):
         detected_objects[top_prediction] = detected_objects.get(top_prediction, 0) + 1
     else:
         detected_objects[top_prediction.replace('_', ' ').title()]=1
-    print(detected_objects)
     return detected_objects
 
 # app = Flask(__name__)

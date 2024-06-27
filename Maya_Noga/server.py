@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, send_from_directory
+from werkzeug.datastructures import ImmutableMultiDict 
 import os
 from backend import process_image
 
@@ -14,22 +15,20 @@ def upload_picture():
     print(request.files)
     if 'file' not in request.files:
         return 'No file found', 400
+    results = []
+    for file in request.files.getlist('file'):
+        if file.filename == '':
+            return 'No file selected', 400
+        
+        if not os.path.exists('./static/images'):
+            os.makedirs('./static/images')
 
-    file = request.files['file']
+        file.save('./static/images/' + file.filename)
 
-    if file.filename == '':
-        return 'No file selected', 400
-    
-    if not os.path.exists('./static/images'):
-        os.makedirs('./static/images')
+        results = do_stuff_with_picture(file.filename)
 
-    file.save('./static/images/' + file.filename)
-
-    results = do_stuff_with_picture(file.filename)
     return render_template('picture.html', picture_path='./static/images/' + file.filename, information=results)
 
-
-#here you should do the picture processing
 def do_stuff_with_picture(filename):
     results = process_image(filename)
     print(results)
