@@ -37,6 +37,26 @@
 
 #file, #file:hover {
     width: 56%;
+    background: none;
+}
+
+input::file-selector-button {
+    font-size: 100%;
+    padding: 0.5%;
+    font-family: 'Heebo', sans-serif;
+    color:#c76000;
+    background-color: white;
+    border-width: 5px;
+    border-color: #c76000;
+}
+
+input::file-selector-button:hover {
+    font-size: 100%;
+    padding: 0.5%;
+    font-family: 'Heebo', sans-serif;
+    color:#d28c00;
+    border-width: 5px;
+    border-color: #d68f00;
 }
 
 
@@ -45,10 +65,8 @@
     padding: 0.5%;
     font-family: 'Heebo', sans-serif;
     color:#d28c00;
-    background-color: white;
     border-width: 5px;
     border-color: #d68f00;
-
 }
 
 #a {
