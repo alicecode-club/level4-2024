@@ -21,7 +21,7 @@ def predict_breed(img):
     input_data = image(img)
     predictions = model.predict(input_data)
     decoded_predictions = decode_predictions(predictions, top=1)[0]
-    result = decoded_predictions[0][1]  # Get the description of the top prediction
+    result = decoded_predictions[0][1]
     return result
 
 
