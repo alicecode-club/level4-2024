@@ -2,9 +2,26 @@
 <html>
 <head>
     <title>Picture Page</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var infoElement = document.getElementById("Info");
+            var text = infoElement.textContent;
+            var cleanedText = text.replace(/[{},"']/g, '');
+            var items = cleanedText.split(/\s(?=\D)/);
+            var bulletList = document.getElementById("bulletList");
+            var ul = document.createElement("ul");
+            items.forEach(function(item) {
+                var li = document.createElement("li");
+                li.textContent = item.trim();
+                ul.appendChild(li);
+            });
+            bulletList.appendChild(ul);
+        });
+    </script>
 </head>
 <body>
     <h1>Picture Page</h1>
-    <p>Information: {{ information }}</p>
+    <p id = "Info">{{ information }}</p>
+    <div id="bulletList"></div>
 </body>
 </html>
