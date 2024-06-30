@@ -60,7 +60,8 @@ def upload_picture():
     for _, label, score in decoded_predictions[0]:
         if is_sea_creature(label):
             results.append(f"{label}")
-
+        else:
+            results="This is not a sea creatures"
 
     return render_template('picture.html', picture_path=os.path.join('./static/images/', filename), information=results)
 
