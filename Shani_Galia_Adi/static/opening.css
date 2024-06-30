@@ -58,3 +58,10 @@ input::file-selector-button{
 .form {
     display: inline;
 }
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    border: black 2px solid;
+}

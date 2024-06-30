@@ -1,5 +1,5 @@
 {"SeaCreature" : {
-    "Tench" : [
+    "tench" : [
         {"name" : "Tench"},
         {"Binomial name" : "Tinca tinca"},
         {"Lifespan" : "Up to 20 years"},
@@ -29,7 +29,7 @@
         {"Species" : "C. auratus"}
     ],
 
-    "Great white shark" : [
+    "great white shark" : [
         {"name" : "Great white shark"},
         {"Binomial name" : "Carcharodon carcharias"},
         {"Lifespan" : "30 to over 70 years old"},
@@ -45,7 +45,7 @@
         {"Species" : "C. carcharias"}
     ],
 
-    "Tiger - shark" : [
+    "tiger shark" : [
         {"name" : "Tiger shark"},
         {"Binomial name" : "Galeocerdo cuvier"},
         {"Lifespan" : "live 30+ years"},
@@ -61,7 +61,7 @@
         {"Species" : "G. cuvier"}
     ],
 
-    "Hammerhead - shark" : [
+    "hammerhead shark" : [
         {"name" : "Hammerhead shark"},
         {"Lifespan" : "20-30 years"},
         {"Domain" : "Eukaryota"},
@@ -74,7 +74,7 @@
         {"Family" : "Sphyrnidae"}
     ],
 
-    "Electric ray" : [
+    "electric ray" : [
         {"name" : "Electric ray"},
         {"Binomial name" : "not update Galeocerdo cuvier"},
         {"Lifespan" : "at least 16 years and possibly up to 24 years"},
@@ -87,9 +87,9 @@
         {"Order" : "Torpediniformes"}
     ],
 
-    "missing" : "crampfish",
+    "crampfish" : "Missing",
 
-    "Numbfish" : [
+    "numbfish" : [
         {"name" : "Coffin ray"},
         {"Another name" : "Australian numbfish"},
         {"Binomial name" : "Hypnos monopterygius"},
@@ -106,7 +106,7 @@
         {"Species" : "H. monopterygius"}
     ],
 
-    "Stingray" : [
+    "stingray" : [
         {"name" : "Stingray"},
         {"Binomial name" : "Myliobatoidei"},
         {"Lifespan" : "between 15 to 25 years"},
@@ -119,7 +119,7 @@
         {"Order" : "Myliobatiformes"}
     ],
 
-    "Sea anemone" : [
+    "sea anemone" : [
         {"name" : "Sea anemone"},
         {"Lifespan" : "may live for decades"},
         {"Domain" : "Eukaryota"},
@@ -129,7 +129,7 @@
         {"order" : "Actiniaria"}
     ],
 
-    "Brain coral" : [
+    "brain coral" : [
         {"name" : "Brain coral"},
         {"Lifespan" : "up to 900 years"},
         {"Domain" : "Eukaryota"},
@@ -139,7 +139,7 @@
         {"order" : "Scleractinia"}
     ],
 
-    "Sea slug" : [
+    "sea slug" : [
         {"name" : "Sea slug"},
         {"Lifespan" : "One year"},
         {"Domain" : "Eukarya"},
@@ -149,7 +149,7 @@
         {"order" : "Nudibranchia"}
     ],
 
-    "Nudibranchs" : [
+    "nudibranchs" : [
         {"name" : "Nudibranchs"},
         {"Lifespan" : "some living less than a month, and others "},
         {"Domain" : "Eukaryota"},
@@ -163,7 +163,7 @@
         {"order" : "Nudibranchia"}
     ],
 
-    "Chiton" : [
+    "chiton" : [
         {"name" : "Chiton"},
         {"Another name" : "Sea cradles"},
         {"Another name" : "Coat-of-mail shells"},
@@ -211,7 +211,7 @@
         {"Species" : "M. magister"}
     ],
 
-    "Rock crab" : [
+    "rock crab" : [
         {"name" : "Rock crab"},
         {"Binomial name" : "Cancer irroratus"},
         {"Lifespan" : "5-7 years"},
@@ -227,7 +227,7 @@
         {"Species" : "C. irroratus"}
     ],
 
-    "Fiddler crab" : [
+    "fiddler crab" : [
         {"name" : "Fiddler crab"},
         {"Another name" : "Calling crab"},
         {"Lifespan" : "up to 1.5 years"},
@@ -242,7 +242,7 @@
         {"Family" : "Ocypodidae"}
     ],
 
-    "King crab" : [
+    "king crab" : [
         {"name" : "King crab"},
         {"Lifespan" : "up to 20-30 years"},
         {"Domain" : "Eukaryota"},
@@ -271,7 +271,7 @@
         {"Species" : "H. americanus"}
     ],
 
-    "Spiny lobster" : [
+    "spiny lobster" : [
         {"name" : "Spiny lobsters"},
         {"Another name" : "langustas"},
         {"Another name" : "langouste"},
@@ -287,7 +287,7 @@
         {"Family" : "Palinuridae"}
     ],
 
-    "Crayfish" : [
+    "crayfish" : [
         {"name" : "Crayfish"},
         {"Lifespan" : "2 to 4 years, although some cave crayfish may live over 10 years"},
         {"Domain" : "Eukaryota"},
@@ -299,7 +299,7 @@
         {"Infraorder" : "Astacidea"}
     ],
 
-    "Hermit crab" : [
+    "hermit crab" : [
         {"name" : "Hermit crab"},
         {"Lifespan" : "20-30 years if cared for properly"},
         {"Domain" : "Eukaryota"},
@@ -312,7 +312,7 @@
         {"Superfamily" : "Paguroidea"}
     ],
 
-    "Gray whale" : [
+    "gray whale" : [
         {"name" : "Gray whale"},
         {"Another name" : "Grey whale"},
         {"Binomial name" : "Eschrichtius robustus"},
@@ -328,7 +328,7 @@
         {"Species" : "E. robustus"}
     ],
 
-    "Devilfish" : [
+    "devilfish" : [
         {"name" : "Devil fish"},
         {"Another name" : "Giant devil ray"},
         {"Binomial name" : "Mobula mobular"},
@@ -345,7 +345,7 @@
         {"Species" : "M. mobular"}
     ],
 
-    "Orca" : [
+    "killer whale" : [
         {"name" : "Orca"},
         {"Another name" : "Killer whale"},
         {"Binomial name" : "Orcinus orca"},
@@ -363,7 +363,7 @@
         {"Species" : "O. orca"}
     ],
 
-    "Grampus" : [
+    "grampus" : [
         {"name" : "Grampus"},
         {"Another name" : "Risso's dolphin"},
         {"Binomial name" : "Grampus griseus"},
@@ -379,7 +379,7 @@
         {"Species" : "G. griseus"}
     ],
 
-    "Sea wolf" : [
+    "sea wolf" : [
         {"name" : "Sea wolf"},
         {"Another name" : "Vancouver Island wolf"},
         {"Another name" : "coastal wolf"},
@@ -395,7 +395,7 @@
         {"Subspecies" : "C. l. crassodon"}
     ],
 
-    "Dugong" : [
+    "dugong" : [
         {"name" : "Dugong"},
         {"Binomial name" : "Dugong dugon"},
         {"Lifespan" : "around 60-70 years"},
@@ -410,7 +410,7 @@
         {"Species" : "D. dugon"}
     ],
 
-    "Sea lion" : [
+    "sea lion" : [
         {"name" : "Sea lion"},
         {"Lifespan" : "15 to 20 years in the wild and average 25 to 30 years in human care"},
         {"Domain" : "Eukaryota"},
@@ -423,7 +423,7 @@
         {"Subfamily" : "Otariinae"}
     ],
 
-    "Starfish" : [
+    "starfish" : [
         {"name" : "Starfish"},
         {"Lifespan" : "up to 35 years in the wild"},
         {"Domain" : "Eukaryota"},
@@ -433,7 +433,7 @@
         {"Class" : "Asteroidea"}
     ],
 
-    "Sea urchin" : [
+    "sea urchin" : [
         {"name" : "Sea urchin"},
         {"Another name" : "urchins"},
         {"Lifespan" : "Southern California red sea urchins can live to be about 50 years old whereas those in British Columbia, Canada can reach more than 100 years."},
@@ -444,7 +444,7 @@
         {"Class" : "Echinoidea"}
     ],
 
-    "Sea cucumber" : [
+    "sea cucumber" : [
         {"name" : "Sea cucumber"},
         {"Lifespan" : "5 to 10 years"},
         {"Domain" : "Eukaryota"},
