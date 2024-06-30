@@ -15,7 +15,6 @@ def upload_picture():
     print(request.files)
     if 'file' not in request.files:
         return 'No file found', 400
-    results = []
     for file in request.files.getlist('file'):
         if file.filename == '':
             return 'No file selected', 400
