@@ -4,6 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 from werkzeug.utils import secure_filename
+import json
 
 app = Flask(__name__)
 
@@ -61,13 +62,27 @@ def upload_picture():
         if is_sea_creature(label):
             results.append(f"{label}")
 
+    with open("info.json", "r") as file:
+        data = json.load(file)
+        
+        info = data["SeaCreature"][results[0]]
+        
 
-    return render_template('picture.html', picture_path=os.path.join('./static/images/', filename), information=results)
+    return render_template('picture.html', picture_path=os.path.join('./static/images/', filename), results=results, information = info)
 
 
-def do_stuff_with_picture(filename):
-    results = "Basic information about the image, cool AI stuff"
-    return results
+
+# def do_stuff_with_picture(filename):
+#     with open("info.json", "r") as file:
+#         data = json.load(file)
+#         info_about_creature = ""
+        
+#         r = json.dumps(file)
+#         for i in data[]:
+#             r = "".join(data["goldfish"])
+#             info_about_creature += r
+    
+#     return r
 
 if __name__ == '__main__':
     app.run()

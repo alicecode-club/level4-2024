@@ -39,6 +39,14 @@ p{
 
 #inputFile{
     font-family: "Comfortaa", sans-serif;
+    background-color: #5BC4D9;
+    font-size: 15px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
 }
 
 #buttons{

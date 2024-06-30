@@ -1,4 +1,4 @@
-{
+{"SeaCreature" : {
     "Tench" : [
         {"name" : "Tench"},
         {"Binomial name" : "Tinca tinca"},
@@ -14,7 +14,7 @@
         {"Species" : "T. tinca"}
     ],
 
-    "Goldfish" : [
+    "goldfish" : [
         {"name" : "Goldfish"},
         {"Binomial name" : "Carassius auratus"},
         {"Lifespan" : "10 to 15 years, with some varieties living up to 30 years when provided with proper care"},
@@ -453,4 +453,4 @@
         {"Subphylum" : "Echinozoa"},
         {"Class" : "Holothuroidea"}
     ]
-}
+}}
