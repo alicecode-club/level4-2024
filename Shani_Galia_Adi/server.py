@@ -59,7 +59,8 @@ def upload_picture():
     results = []
     for _, label, score in decoded_predictions[0]:
         if is_sea_creature(label):
-            results.append(f"{label} ({score:.2f})")
+            results.append(f"{label}")
+
 
     return render_template('picture.html', picture_path=os.path.join('./static/images/', filename), information=results)
 
