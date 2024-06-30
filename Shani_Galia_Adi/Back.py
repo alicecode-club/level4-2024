@@ -24,4 +24,4 @@ def is_sea_creature(label):
 # Print the top predictions only if the predicted creature is a sea creature
 for _, label, score in decoded_predictions[0]:
   if is_sea_creature(label):
-    print(f"{label}: {score:.2f}")
+    print(f"{label}")
