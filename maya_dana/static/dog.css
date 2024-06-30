@@ -38,6 +38,7 @@
 #file, #file:hover {
     width: 56%;
     background: none;
+    margin-left: 24.5%;
 }
 
 input::file-selector-button {
