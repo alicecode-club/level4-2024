@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Heebo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
     <p class="title">CUTE DOG PICTURES FOR FREE SO WHY NOT??</p>
@@ -17,11 +20,11 @@
             <button type="submit" id="b">New Dog</button>
         </form>
         <form action="/upload" method="post" enctype="multipart/form-data" class="form">
-            <input type="file" name="file" accept="image/*">
+            <input type="file" name="file" accept="image/*" id="file">
             <input type="submit" value="Upload" id="upload">
         </form>
     </div>
-    <br><br>
+    <br><br><br><br>
     <div id="a">
         {%if dog_image%}
             <img src="{{dog_image}}" alt="Random Dog Image" height="500">
@@ -31,8 +34,8 @@
         {%endif%}
     </div>
     <div id="dogBreed">
-        <span class="title" id="breed">Dog breed:</span>
-        <span class="title" id="breed_ai">{%if breed%}{{breed}}{%else%}Loading...{%endif%}</span>
+        <span id="breed">Dog breed:</span>
+        <span id="breed_ai">{%if breed%}{{breed}}{%else%}Loading...{%endif%}</span>
     </div>
 </body>
 </html>
